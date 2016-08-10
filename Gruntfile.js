@@ -8,10 +8,12 @@ module.exports = function(grunt) {
         mochaTest: {
             test: {
                 options: {
-                    reporter: 'spec',
-                    captureFile: 'results.txt', // Optionally capture the reporter output to a file
-                    quiet: false, // Optionally suppress output to standard out (defaults to false)
-                    clearRequireCache: false // Optionally clear the require cache before running tests (defaults to false)
+                    reporter: 'mochawesome', //You need to change this !
+                    colors: true,
+                    summery: true,
+                    captureFile: 'results.html',
+                    quiet: false,
+                    clearRequireCache: true
                 },
                 src: ['test/*.js']
             }
