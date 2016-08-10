@@ -4,7 +4,7 @@
   "description": "Automation test for API by supertest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "grunt-contrib-nodeunit": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-mocha-test": "^0.12.7",
-    "mocha": "^3.0.2",
+    "mocha": "^2.5.3",
     "supertest": "^2.0.0"
   }
 }
