@@ -1,0 +1,19 @@
+{
+  "name": "supertest_practice",
+  "version": "1.0.0",
+  "description": "Automation test for API by supertest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jacquelinezhang/supertest.git"
+  },
+  "keywords": [
+    "supertest",
+    "api"
+  ],
+  "author": "lichen",
+  "license": "ISC"
+}
