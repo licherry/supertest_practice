@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">supertestPractice</h1>
+          <h3 class="report-date">Thursday, August 11 2016, 05:15pm</h3>
+        </div>
+        <div class="nav-right">
+          <div class="quick-summary-cnt">
+              <ul class="list-unstyled quick-summary">
+                <li class="qs-item summary-duration" title="Duration">5.101<span>S</span></li>
+                <li class="qs-item summary-suites" title="Suites">3</li>
+                <li class="qs-item summary-tests" title="Tests">5</li>
+                <li class="qs-item summary-passes" title="Passed" data-filter="passed">5</li>
+                <li class="qs-item summary-failures" title="Failed" data-filter="failed">0</li>
+                <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+              </ul>          </div>
+          <button class="nav-menu-btn open-menu"><i class="icon-menu"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">5.101<span>S</span></h1>
+              <h4 class="summary-label">S</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">3</h1>
+              <h4 class="summary-label">Suites</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">5</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">5</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct success">100% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="45c3fe02-83a4-47f3-b62c-cc4adfa41559" class="suite has-suites">
+            <h3 class="suite-title">Test Google Book API</h3>
+            <h5 class="suite-filename">/test/book_api.js</h5>
+        
+              <section class="suite-wrap">
+          <div id="5ecb0423-10cb-4c65-b56f-a05105414d79" class="suite has-tests has-passed">
+            <h3 class="suite-title">Google book API-Volume API</h3>
+            <h5 class="suite-filename">/test/book_api.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="5ecb0423-10cb-4c65-b56f-a05105414d79" class="suite-chart" width="50" height="50" data-total-passes="3" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">1.905 s</li>
+                <li class="suite-summary-item tests">3</li>
+                <li class="suite-summary-item passed">3</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#5ecb0423-10cb-4c65-b56f-a05105414d79-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="5ecb0423-10cb-4c65-b56f-a05105414d79-test-list" class="list-group test-list collapse in">
+                    <div id="a3b05d2b-5437-4a50-9dc8-6d67c291dd25" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Scenario 1: Search books with a keyword - API
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#a3b05d2b-5437-4a50-9dc8-6d67c291dd25 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">826 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">request<br>                .get(<span class="hljs-string">'?q=API'</span>)<br>                .expect(<span class="hljs-number">200</span>, done)</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="3b404451-bec6-4836-b79e-8034caf7d805" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Scenario 2: Search books with two parameters (q=API and maxResults=2)
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#3b404451-bec6-4836-b79e-8034caf7d805 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">649 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">var</span> q = <span class="hljs-string">'api'</span>;<br>            <span class="hljs-keyword">var</span> maxResults = <span class="hljs-number">2</span>;<br>            request<br>                .get(<span class="hljs-string">'/'</span>)<br>                .query({<br>                    q: q,<br>                    maxResults: maxResults<br>                })<br>                .expect(<span class="hljs-number">200</span>)<br>                .expect(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">res</span>) </span>{<br>                    id = res.body.items[<span class="hljs-number">0</span>].id;<br>                    <span class="hljs-keyword">var</span> selfLinkLength = res.body.items[<span class="hljs-number">0</span>].selfLink.split(<span class="hljs-string">'/'</span>).length;<br>                    <span class="hljs-keyword">var</span> selfLinkId = res.body.items[<span class="hljs-number">0</span>].selfLink.split(<span class="hljs-string">'/'</span>)[selfLinkLength - <span class="hljs-number">1</span>];<br>                    expect(res.body.items[<span class="hljs-number">0</span>].volumeInfo.title).to.contains(<span class="hljs-string">'API'</span>);<br>                    expect(res.body.items.length).to.be.at.most(maxResults);<br>                    expect(selfLinkId).to.equals(id);<br>                    expect(res.body).to.include.keys(<span class="hljs-string">'kind'</span>, <span class="hljs-string">'totalItems'</span>, <span class="hljs-string">'items'</span>);<br>                })<br>                .end(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err, res</span>) </span>{<br>                    done(err);<br>                })</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="96969f4d-f863-4704-bfec-2c855617c98c" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Scenario 3: Retrieves a Volume resource based on ID, the ID in request URL is from Scenario 2
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#96969f4d-f863-4704-bfec-2c855617c98c > .test-code.collapse">Code</button>
+              <span class="test-duration slow">430 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">10000</span>);<br><span class="hljs-built_in">console</span>.log(id);<br>request<br>    .get(<span class="hljs-string">'/'</span> + id)<br>    .expect(<span class="hljs-number">200</span>)<br>    .expect(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">res</span>) </span>{<br>        expect(res.body.id).to.equal(id);<br>    })<br>    .end(done)</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="6100f7c5-5011-491a-88ba-ca11fa18165a" class="suite has-tests has-passed">
+            <h3 class="suite-title">GOOGLE SHEETS API</h3>
+            <h5 class="suite-filename">/test/sheet_api.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="6100f7c5-5011-491a-88ba-ca11fa18165a" class="suite-chart" width="50" height="50" data-total-passes="2" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">3.185 s</li>
+                <li class="suite-summary-item tests">2</li>
+                <li class="suite-summary-item passed">2</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#6100f7c5-5011-491a-88ba-ca11fa18165a-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="6100f7c5-5011-491a-88ba-ca11fa18165a-test-list" class="list-group test-list collapse in">
+                    <div id="60e751b9-11a7-4346-8a81-88b02e3cf49a" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Scenario 4: Add a new sheet -LC1
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#60e751b9-11a7-4346-8a81-88b02e3cf49a > .test-code.collapse">Code</button>
+              <span class="test-duration slow">1.719 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">10000</span>);<br>        <span class="hljs-keyword">var</span> singleSheetBody = {<br>            <span class="hljs-string">"requests"</span>: [<br>                {<br>                    <span class="hljs-string">"addSheet"</span>: {<br>                        <span class="hljs-string">"properties"</span>: {<br>                            <span class="hljs-string">"title"</span>: titleName,<br>                            <span class="hljs-string">"gridProperties"</span>: {<br>                                <span class="hljs-string">"rowCount"</span>: <span class="hljs-number">20</span>,<br>                                <span class="hljs-string">"columnCount"</span>: <span class="hljs-number">12</span><br>                            },<br>                            <span class="hljs-string">"tabColor"</span>: {<br>                                <span class="hljs-string">"red"</span>: <span class="hljs-number">1.0</span>,<br>                                <span class="hljs-string">"green"</span>: <span class="hljs-number">0.3</span>,<br>                                <span class="hljs-string">"blue"</span>: <span class="hljs-number">0.4</span><br>                            }<br>                        }<br>                    }<br>                }<br>            ]<br>        }<br>        request.post(<span class="hljs-string">'/'</span> + spreadsheetId + <span class="hljs-string">':batchUpdate'</span>)<br>            .set(<span class="hljs-string">'Authorization'</span>, accessToken)<br>            .set(<span class="hljs-string">'Content-Type'</span>, jsonType)<br>            .send(singleSheetBody)<br>            .expect(<span class="hljs-number">200</span>)<br>            .expect(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">res</span>) </span>{<br>                expect(res.body.spreadsheetId).to.equal(spreadsheetId);<br>                expect(res.body.replies[<span class="hljs-number">0</span>].addSheet.properties.title).to.equal(titleName);<br>            })<br>            .end(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err,res</span>) </span>{<br>                sheetId = res.body.replies[<span class="hljs-number">0</span>].addSheet.properties.sheetId;<br>                done(err);<br>            })</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="c2b99a96-2a88-4ee8-8e1e-2e0ce7127c48" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Scenario 5: Write to multiple ranges
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#c2b99a96-2a88-4ee8-8e1e-2e0ce7127c48 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">1.466 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">10000</span>);<br>        <span class="hljs-keyword">var</span> multipleRangesBody = {<br>            <span class="hljs-string">"valueInputOption"</span>: <span class="hljs-string">"USER_ENTERED"</span>,<br>            <span class="hljs-string">"data"</span>: [<br>                {<br>                    <span class="hljs-string">"range"</span>: <span class="hljs-string">"LC1!A1:A4"</span>,<br>                    <span class="hljs-string">"majorDimension"</span>: <span class="hljs-string">"COLUMNS"</span>,<br>                    <span class="hljs-string">"values"</span>: [<br>                        [<span class="hljs-string">"Item"</span>, <span class="hljs-string">"Wheel"</span>, <span class="hljs-string">"Door"</span>, <span class="hljs-string">"Engine"</span>]<br>                    ]<br>                },<br>                {<br>                    <span class="hljs-string">"range"</span>: <span class="hljs-string">"LC1!B1:D2"</span>,<br>                    <span class="hljs-string">"majorDimension"</span>: <span class="hljs-string">"ROWS"</span>,<br>                    <span class="hljs-string">"values"</span>: [<br>                        [<span class="hljs-string">"Cost"</span>, <span class="hljs-string">"Stocked"</span>, <span class="hljs-string">"Ship Date"</span>],<br>                        [<span class="hljs-string">"$20.50"</span>, <span class="hljs-string">"4"</span>, <span class="hljs-string">"3/1/2016"</span>]<br>                    ]<br>                }<br>            ]<br>        };<br>        request.post(<span class="hljs-string">'/'</span> + spreadsheetId + <span class="hljs-string">'/values:batchUpdate'</span>)<br>            .set(<span class="hljs-string">'Authorization'</span>, accessToken)<br>            .set(<span class="hljs-string">'Content-Type'</span>, jsonType)<br>            .send(multipleRangesBody)<br>            .expect(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">res</span>) </span>{<br>                expect(res.body.spreadsheetId).to.equal(spreadsheetId);<br>                expect(res.body.totalUpdatedCells).to.equal(<span class="hljs-number">10</span>);<br>            })<br>            .end(done)</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2016.</p>
+      </div>
+    </footer>
+
+    <!-- Nav Menu -->
+    <div class="nav-menu-wrap">
+      <div class="menu-overlay close-menu"></div>
+      <nav class="menu">
+        <button class="nav-menu-btn close-menu"><i class="icon-failed"></i></button>
+        <ul class="list-unstyled main-menu">
+                <li class="nav-menu-item">
+                <a href="#45c3fe02-83a4-47f3-b62c-cc4adfa41559" class="nav-menu-item-link">Test Google Book API</a>
+                  <ul class="list-unstyled sub-menu">
+                    <li class="nav-menu-item">
+                <a href="#5ecb0423-10cb-4c65-b56f-a05105414d79" class="nav-menu-item-link has-passes">Google book API-Volume API</a>
+            </li>
+                  </ul>
+            </li>
+                <li class="nav-menu-item">
+                <a href="#6100f7c5-5011-491a-88ba-ca11fa18165a" class="nav-menu-item-link has-passes">GOOGLE SHEETS API</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>
